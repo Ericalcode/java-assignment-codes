@@ -1,3 +1,5 @@
+//Eric Maina
+//Regno:CT100/G/21350/24
 import java.util.Scanner;
 
 class Vehicle {
@@ -12,9 +14,9 @@ class Vehicle {
     }
 
     void displayDetails() {
-        System.out.println("Brand: " + brand);
-        System.out.println("Model: " + model);
-        System.out.println("Year: " + year);
+        System.out.println("   Brand:    " + brand);
+        System.out.println("   Model:    " + model);
+        System.out.println("   Year:     " + year);
     }
 }
 
