@@ -1,3 +1,5 @@
+//Eric MAina 
+//regno: Ct100/G/21350/24
 import java.util.Scanner;
 
 // This class acts as the data blueprint
@@ -29,7 +31,7 @@ public class StudentApp {
 
         // 1. Prompting for data
         System.out.print("Enter Student ID : ");
-        // Reading as a string and parsing to int is safer for the Scanner buffer
+    
         int id = Integer.parseInt(input.nextLine());
 
         System.out.print("Enter Student Name: ");
@@ -41,7 +43,6 @@ public class StudentApp {
         // 2. Instantiate the object
         StudentRecord student = new StudentRecord(id, name, course);
 
-        // 3. Display the results
         student.displayInfo();
 
         input.close();
