@@ -1,4 +1,4 @@
-//WEEK3 ACTIVITY 3
+//WEEK4 ACTIVITY 1
 //ERIC MAINA
 //ct100/g/21350/24
 public class Numbers {
